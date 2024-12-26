@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* @font-face {
+  font-family: "ClashDisplay-Bold";
+  src: url("../fonts/ClashDisplay-Bold.woff2") format("woff2"),
+    url("../fonts/ClashDisplay-Bold.woff") format("woff"),
+    url("../fonts/ClashDisplay-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* scroll css start */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+li {
+  list-style: none;
+  font-size: 16px;
+  color: #5e6075;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ddae55;
+  border-radius: 10px;
+}
+
+/* scroll css end */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+@keyframes infiniteScale {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+    /* Scale to 150% of original size */
+  }
+
+  100% {
+    transform: scale(1);
+    /* Back to original size */
+  }
+}
+
+/* html {
+  overflow-x: hidden ;
+} */
+
+a {
+  text-decoration: none;
+}
+
+select {
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #5e6075;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  color: #5e6075;
+}
+
+h5 {
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+h6 {
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar a {
+  font-size: 14.4px;
+}
+
+.banner-btm-slider img {
+  width: 50%;
+}
+
+p {
+  font-size: 17px;
+  color: #000;
+}
+
+
+.banner-btm-slider .slick-dots li button:before {
+  font-size: 45px;
+}
+
+.banner-btm-slider .slick-dots li button:before {
+  font-size: 45px;
+}
+
+.bsl-bottom .slick-dotted.slick-slider {
+  margin-bottom: 70px;
+}
+
+.bsl-bottom .slick-dots {
+  bottom: -45px;
+}
+
+.btn-theme1 {
+  background-color: #000;
+  border-radius: 30px;
+  padding: 10px 40px;
+  color: #FFF;
+}
+
+.banner-right {
+  background-image: url("../images/banner-right.png");
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60px;
+}
+
+.br-content {
+  padding: 60px;
+}
+
+.br-content h1 {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.br-content h2 {
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.br-content h4 {
+  color: #FFFF;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 60px 0 30px;
+  line-height: 35px;
+}
+
+.section2 {
+  background: #043E5B;
+  margin: 20px 0;
+}
+
+.section2 p {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 35px 0 0;
+}
+
+h3 {
+  color: #FFFF;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h2 {
+  color: #FFFF;
+  font-size: 60px;
+  font-weight: 600;
+  padding: 10px 0 0;
+
+}
+
+.s2-left {
+  padding: 100px 0;
+}
+
+.s2-right-bg-color {
+  background-color: #BABABA;
+  width: 90%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+}
+
+.s2-right {
+  height: 100%;
+  position: relative;
+}
+
+.s2-right-img img {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.section3 {
+  padding: 50px 0;
+}
+.section3 h3 {
+  color: #000;
+  font-weight: 700;
+}
+
+.section3 p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 5px 0 0;
+  line-height: 25px;
+}
+
+.s3-r1 {
+  background: #C7665A;
+  border-radius: 30px;
+}
+.s3l-content {
+  padding-top: 70px;
+}
+.s3l-content img {
+  width: 120px;
+  padding-bottom: 25px;
+}
+.s3_right {
+  padding-left: 100px;
+}
